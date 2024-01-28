@@ -43,7 +43,7 @@ span{
     flex-wrap: wrap;
     min-width: 320px;
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:319px) {
     .nav{
         gap:10px;
         margin-left: 8px;
