@@ -43,7 +43,7 @@ span{
     flex-wrap: wrap;
     min-width: 320px;
 }
-@media screen and (width:320px) {
+@media screen and (max-width:426px) {
     .nav{
         gap:10px;
         margin-left: 8px;
@@ -54,15 +54,20 @@ span{
         gap: 45px;
     }
     .footer{
-        margin-left: 8px;
-    }
-}
-@media screen and (min-width:375px){
-    .dscptn{
-        width: 726px;
         margin: auto;
     }
-    .nav{
-        width:726px;
+}
+@media screen and (min-width:768px){
+    .footer{
+        flex-wrap: nowrap;
+        margin-left: 124px;
+        margin-right: -146px;
+    }
+}
+@media screen and (min-width:1024px){
+    .footer{
+        margin-left: 180px;
+        margin-right: -146px;
+        width:845px;
     }
 }
